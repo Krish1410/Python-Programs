@@ -1,0 +1,112 @@
+#sugges
+import time
+print("\n *YOU NEED A ANY SUUGESHIN*\n")
+print("local time ")
+print("\t\t\t\tDAY/MONTH/DATE/HOUR/MINUT/SECOND/YEAR")
+localtime= time.asctime()
+print("\t\t\t\t",localtime)
+print("enter your name:")
+name=input()
+print("Enter your age:")
+age=int(input())
+time.sleep(1)
+if age<=20:
+    print("\tI thing you not are merid\n")
+else:
+    print("\t I thing you are merid\n")
+    time.sleep(1)
+print("#Plase reed with attenshion#")
+time.sleep(1)
+print("Enter '1' for farmer\n")
+time.sleep(1)
+print("Enter '2' for student\n")
+time.sleep(1)
+print("Enter '3' for bisness\n")
+time.sleep(1)
+print("Enter '4' for poliseman\n")
+time.sleep(1)
+print("Enter '5' for Army man\n")
+time.sleep(1)
+print("Enter '6' for politishan\n")
+time.sleep(1)
+print("Enter '7' for house wife\n")
+time.sleep(1)
+print("Enter '8' for mazdoor\n")
+time.sleep(1)
+print("Enter '9' for job\n")
+time.sleep(1)
+print("Enter '10' for other...\n")
+time.sleep(1)
+print("Type your number:")
+job=int(input())
+time.sleep(1)
+if job==1:
+    print("**you are also helthy but you can eat carrot and green vegitables")
+    print("farmer is our god.")
+    print("Know all program by pm and cm for farmer**1")
+elif job==2:
+    print("please enter your std:")
+    print("you are in colege you enter fy,sy,and ty")
+    std=input()
+    if std<='8':
+        print("you can eat gren vegitable avery day")
+        print("because green vegitable is incris our brain power")
+    elif std>='9':
+        print(" you consnteret in  study..")
+        print("you  can do exrsize everyday.")
+        print("takecer of your helth")
+    elif std=='fy':
+        print("you can all consantret on sudy.")
+        print("Choose you best friend")
+        print("do not realise a very smart.")
+    elif std=='sy':
+        print("do not reging any student.")
+        print("participat in all propgram")
+        print("choose your gf/bf")
+    elif std=='ty':
+        print("find a job for your family")
+        print("do hardwork for pass exam")
+        print("FInd your life partner")
+    else:
+        print(" type yout std only ")
+        print("Do not write with any thing with std")
+elif job==3:
+    print("you are take calculater for calculet")
+    print("you can do your bissnes online and use online pyment method")
+    print("do not chose anemy")
+elif job==4:
+    print("Do exrsize every day ")
+    print("do not take any black money")
+    print("make a inteligent  ")
+elif job==5:
+    print("do a any opreshon without any curpting")
+    print("do a disiplin for our country")
+    print("do not revial any secret informstion")
+elif job==6:
+    print("die for country .....")
+    print("do not take balck money")
+    print("do not buy vote..")
+elif job==7:
+    print("Do all work in home ..")
+    print("do not control your husbund")
+    print("wekup erly in morning")
+    print("do not made lazy")
+    print("you are a greate wife")
+elif job==8:
+    print("exsept all work by boss")
+    print("eat a enrgetik food")
+    print("do not chit your boss")
+elif job==9:
+    print("make bujet for your home")
+    print("do not chite your boss")
+    print("do all work in office")
+elif job==10:
+    print("Make a help full for other")
+    print("bilive your your self")
+    print("do all work")
+    print("follow this **IF YOU CAN DO IT,I CAN DO IT")
+else:
+    print("ERROR!")
+    print("PLEAS ENTER VELID JOB")
+ex=input("write your feed bake :\n")
+print("thanx for feed back")

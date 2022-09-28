@@ -1,0 +1,15 @@
+from tkinter import *
+
+Root=Tk()
+Root.geometry("700x600")
+Root.maxsize(700,600)
+Root.title("Sate")
+# canvas = tkinter.Canvas(Root, width=400, height=400)
+# canvas.create_line(100,400,100,60)
+# canvas.create_line(100,400,200,60)
+label=Label(Root)
+label.pack(fill=BOTH)
+label.cget()
+Entry=Entry(label)
+Entry.grid(row=0,column=0,padx=10,pady=10)
+Root.mainloop()
